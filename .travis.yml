@@ -10,4 +10,4 @@ script:
   - sbt clean coverage test coverageReport
 
 after_success:
-- bash <(curl -s https://codecov.io/bash) -t TODO
+- bash <(curl -s https://codecov.io/bash) -t e1efbbaa-d432-4a9e-b125-f0a888109b45
